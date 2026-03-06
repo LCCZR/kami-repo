@@ -22,4 +22,4 @@ LQ-FF02=lieqiang2_fufei_123456  # 猎枪2参数
 LQ-FF03=lieqiang3_fufei_123456  # 猎枪3参数
 LQ-FF04=lieqiang4_fufei_123456  # 猎枪4参数
 LQ-FF05=lieqiang5_fufei_123456  # 猎枪5参数
-LQ-FF06=lieqiang6_fufei_123456  # 猎枪未更新功能6
+LQ-FF06=lieqiang6_fufei_123456  # 猎枪6参数
