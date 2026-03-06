@@ -1,16 +1,25 @@
-GY01-888888-GY01
-GY02-666666-GY02
-GY03-999999-GY03
-GY04-666888-GY04
-LQ01-XZ53888-LQ01
-LQ02-PLANB666-LQ02
-LQ03-1001LC99-LQ03
-LQ04-ZT73LC66-LQ04
-LQ05-LC000005-LQ05
-LQ06-LC000006-LQ06
-ZL01-36ZL8888-ZL01
-ZL02-FA43LC66-ZL02
-ZL03-PANL0388-ZL03
-ZL04-PANL0466-ZL04
-ZL05-ZL000005-ZL05
-ZL06-ZL000006-ZL06
+# 版本号（必填，用于更新检测，和脚本里的CURRENT_VERSION对应）
+VERSION=1.0.0
+
+# 登录卡密（每行一个，LOGIN=卡密，用于主登录）
+LOGIN=1234567890
+LOGIN=abcdefghij
+LOGIN=9876543210
+
+# 工艺参数专属卡密（编码和脚本里一一对应）
+ZL-GY01=1  # 左轮工艺参数
+LQ-GY01=1  # 猎枪工艺参数
+
+# 左轮付费参数专属卡密
+ZL-FF01=zuolun1_fufei_123456  # 左轮1参数
+ZL-FF02=zuolun2_fufei_123456  # 左轮2参数
+ZL-FF03=zuolun3_fufei_123456  # 左轮3参数
+ZL-FF04=zuolun4_fufei_123456  # 左轮4参数
+
+# 猎枪付费参数专属卡密
+LQ-FF01=lieqiang1_fufei_123456  # 猎枪1参数
+LQ-FF02=lieqiang2_fufei_123456  # 猎枪2参数
+LQ-FF03=lieqiang3_fufei_123456  # 猎枪3参数
+LQ-FF04=lieqiang4_fufei_123456  # 猎枪4参数
+LQ-FF05=lieqiang5_fufei_123456  # 猎枪5参数
+LQ-FF06=lieqiang6_fufei_123456  # 猎枪未更新功能6
